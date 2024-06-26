@@ -1,0 +1,71 @@
+.header {
+   background-image: linear-gradient(#1b1b1bfc, #1b1b1bfc),  url(../img/image74.png);
+    background-position: center;
+   background-size: 11rem;
+   @media only screen and (max-width:519px) {
+      padding: 0 1rem;
+  }
+   }
+
+.navbar {
+
+   &__link {
+      font-size: .89rem;
+      font-weight: 400;
+      color: #ffffffc7;
+      margin-right: .8rem;
+   }
+
+   &__nav-item {
+      position: relative;
+   }
+
+   &__link:hover::after,
+   &__link:focus::after {
+      height: 6px;
+      width: 6px;
+      border-radius: 50%;
+      content: "";
+      position: absolute;
+      display: inline-block;
+      background-color: #bb9a6b;
+      // margin: .1rem auto;
+      left: 37%;
+      bottom: 4%;
+
+      @media only screen and (max-width:992px) {
+         left: 1rem;
+
+      }
+   }
+   &__link:hover,
+   &__link:focus{
+      color: #bb9a6b;
+   }
+   &__input-icon {
+      color: white;
+      margin-left: -4rem;
+      font-size: 1.4rem;
+      align-self: center;
+      
+      &-2 {
+      color: white;
+      align-self: center;
+      font-size: 1.3rem;
+   }
+
+   &-3 {
+      color: white;
+      align-self: center;
+   }
+}
+
+
+}
+
+.dropdown-icon {
+   font-size: .5rem !important;
+}
+
+
+

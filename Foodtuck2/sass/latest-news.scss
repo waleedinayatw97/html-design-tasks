@@ -1,0 +1,30 @@
+.latest-news{
+margin: 3rem 0 7rem 0;
+    &__img{
+        width: 100%;
+    }
+    &__text-box{
+        padding: 1.4rem;
+    }
+    &__heading{
+        font-weight: 600;
+        color: rgb(75, 75, 75);
+        margin-top: 1rem;
+    }
+    &__detail{
+            font-size: .9rem; color: gray;
+            i{
+                color: $color-primary;
+            }
+    }
+    &__btn{
+        text-decoration: none;
+        color: $color-primary;
+        padding: .6rem 2rem;
+        border: 1px solid $color-primary;
+        border-radius: 5px;
+        display: flex;
+        width: max-content;
+        align-items: center;
+    }
+}

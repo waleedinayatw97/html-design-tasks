@@ -1,0 +1,67 @@
+.from-our-menu {
+
+    &__logo {
+        color: $color-yello;
+        font-weight: 500;
+        font-size:  1.17rem !important ;
+    }
+
+    &__link {
+        color: white;
+        padding-left: 6rem !important;
+        letter-spacing: 1.5px;
+        font-size: 1.1rem;
+    }
+    &__icon{
+        color: white !important;
+    }
+    &__img-box{
+        background-image: url(../img/bg-flower.png);
+        width: 100%;
+        background-repeat: no-repeat;
+
+        @media only screen and (max-width:1200px) {
+          margin-left: -4rem;
+             
+         }
+
+         @media only screen and (max-width:991px) {
+            margin-left: 0;
+
+             
+         }
+    }
+
+    &__img{
+        padding-left: 5rem;
+
+        @media only screen and (max-width:575px) {
+           width: 68%;
+
+             
+         }
+        
+    }
+
+    &__sub-box{
+        display: flex;
+        margin-bottom: 1.56rem;
+
+        img{
+            height: 4.8rem;
+        }
+    }
+
+    &__sub-text-box{
+        margin-left: .5rem;
+
+        h6{
+            margin-bottom: 0rem;
+        }
+        p{
+            margin-top: .29rem;
+            margin-bottom: .5rem;
+        }
+     
+    }
+}

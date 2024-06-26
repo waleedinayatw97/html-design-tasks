@@ -1,0 +1,12 @@
+.flexitem {
+    display: flex;
+    align-items: center;
+}
+
+.main-links a:hover {
+    color: var(--secondary-color) !important;
+}
+
+.second-links a:hover {
+    color: var(--light-text-color);
+}

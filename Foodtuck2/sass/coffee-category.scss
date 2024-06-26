@@ -1,0 +1,54 @@
+.coffee-category{
+    
+    &__img{
+    height: max-content;
+    width: min-content;
+    margin-right: .5rem;
+
+    @media only screen and (max-width: 700px)
+ {
+    width: 5rem;
+}
+
+    }
+    &__width{
+        width: 33%;
+        margin-bottom: 2rem;
+
+        @media only screen and (max-width: 992px)
+        {
+           width: 60%;
+       }
+       @media only screen and (max-width: 278px)
+       {
+          width: 100%;
+      }
+    }
+    &__img-box{
+        @media only screen and (max-width: 767px)
+        {
+           width: 70%;
+       }
+    }
+
+    &__cup-img{
+        width: 75%;
+        margin-top: -3rem;
+        
+    }
+    &__leef{
+position: absolute;
+left: 1rem;
+bottom: 0;
+width: 60%;
+z-index: -1;
+    }
+
+    &__leef2{
+        position: absolute;
+        right: 0rem;
+        bottom: 3rem;
+        width: 65%;
+        z-index: -1;
+            }
+}

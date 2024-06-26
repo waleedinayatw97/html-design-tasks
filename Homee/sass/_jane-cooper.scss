@@ -1,0 +1,14 @@
+.jane-cooper{
+
+    &__paragraph{
+            line-height: 1.2;
+            font-weight: 400;
+            font-size: 1.5rem;
+            color: #615e5e;}
+            word-spacing: 3px;
+            
+
+            @media only screen and (max-width:1200px){
+                font-weight: 400;
+            }
+}

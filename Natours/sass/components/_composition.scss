@@ -1,0 +1,71 @@
+.composition{
+    position: relative;
+
+    &__imgs{
+        width: 55%;
+        box-shadow: 0 1.4rem 4rem rgba($color-black, .4);
+        border-radius: 2px;
+        position: absolute;
+        transition: all .2s;
+        z-index: 10;
+        outline-offset: 1.5rem;
+
+        &__img-1{
+            left: 0;
+            top: -2rem ;
+
+            @include respond(tab-port) {
+                top: -10rem;
+                transform: scale(.90);            
+            }
+        }
+        &__img-2{
+            right: 0;
+            top: 2rem ;
+            
+            @include respond(tab-port) {
+                top: -10rem;
+                right: -22rem;
+                transform: scale(.90);
+            }
+        }
+        &__img-3{
+            left: 20%;
+            top: 10rem ;
+           
+            @include respond(tab-port) {
+                top: -14rem;
+                left: 40%;
+            }
+        }
+     
+        &:hover{
+            outline: 1.5rem solid $Dark-green;
+            border-radius: 0;
+            transform: scale(1.02) translateY(-.5rem);
+            box-shadow: 0 2rem 4rem rgba($color-black, .7);
+            z-index: 20;
+        }
+
+        
+    }
+    &:hover &__imgs:not(:hover){
+        transform: scale(.9);
+    }
+}
+
+.section-about{
+
+    .row{
+        @include respond (tab-port){
+            padding: 0 3rem ;
+        }
+
+        .col-md:first-child{
+
+            @include respond (tab-port){
+                padding-bottom: 15rem;
+            }
+        }
+    }
+}

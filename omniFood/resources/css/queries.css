@@ -1,0 +1,31 @@
+/* queries for up to tablets */
+@media only screen and (max-width: 1200px){
+   
+    .motoText{
+        width: 80%;
+        padding: 0 5%;
+    }
+    .row{width: 80%; padding: 0 5%;}
+    body{font-size: 16px; }
+    .upperSection p {max-width: 95%;}
+    .logo {height: 100px;}
+    .mainNav li a:link, .mainNav li a:visited {padding: 0; font-size: 100%;}
+}
+/* queries for big tablets */
+@media only screen and (max-width: 1023px){
+
+    body{font-size: 15px}
+    section{padding: 60px 0;}
+    .iphone-img{width: 55%; height: auto; margin-top: 20px;}
+
+}
+/* queries for small tablets */
+@media only screen and (max-width: 767px){
+    h
+
+}
+/* queries for mobile phones */
+@media only screen and (max-width: 480px){
+
+
+}

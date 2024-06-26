@@ -1,0 +1,53 @@
+
+$color-yello:#ff9f0f;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+box-sizing: border-box;
+font-size:15px;
+@media only screen and (max-width:700px) {
+    font-size: 10px;
+    
+}
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    background-color: black;
+    color: #dfe1e2;
+    font-weight: 300;
+
+}
+
+.row{
+    margin-right: 0 !important;
+}
+.section-we-are-create{
+    @media only screen and (max-width:992px) {
+        // margin-top: -24rem;
+        // margin-bottom: 24rem;   
+     }
+}
+.choose-food{
+    margin-top: 7rem;
+}
+.extra-ordinary{
+    margin-top: 7rem;
+}
+
+.meet-our-chef{
+    margin: 5rem 0;
+}
+.resturent-active{
+    background-image: url(../img/r1-process-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5rem 0;
+    background-size:cover;
+    padding: 1rem 0;
+    width: 100%;
+}

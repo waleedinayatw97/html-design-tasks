@@ -1,0 +1,195 @@
+.flexitem {
+  display: flex;
+  align-items: center; }
+
+.main-links a:hover {
+  color: var(--secondary-color) !important; }
+
+.second-links a:hover {
+  color: var(--light-text-color); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+:root {
+  --primary-color: #ff6b6b;
+  --secondary-color: #794afa;
+  --secondary-dark-color: #453c5c;
+  --white-color:#fff;
+  --light-bg-color: #f2f3f5;
+  --light-text-color: #7c899a;
+  --border-color: #e5e8ec;
+  --dark-color: #0a021c;
+  --font-small: 13px;
+  --font-smaller: 11px;
+  --fw3: 300;
+  --fw5: 500;
+  --fw6: 600;
+  --fw7: 700;
+  --fw8: 800;
+  --trans-background-color: background-color .3s color .3s;
+  --trans-background: background-color .3s;
+  --trans-color: color .3s; }
+
+body {
+  font-family: "Rubik", sans-serif !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--dark-color);
+  background-color: var(--white-color); }
+
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none !important;
+  color: inherit !important; }
+
+ul {
+  list-style: none; }
+
+strong {
+  font-weight: var(--fw8); }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input::placeholder {
+  font: inherit; }
+
+h1, h2, h3, h4 {
+  font-family: "Poppins"; }
+
+h1 {
+  font-size: calc(1.3em + 1vw);
+  font-weight: var(--fw8);
+  line-height: 1; }
+
+h2 {
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 1.2em;
+  font-weight: var(--fw7); }
+
+h4 {
+  font-size: 1em;
+  font-weight: var(--fw6); }
+
+.para {
+  font-size: 1rem;
+  color: #8a8fa3; }
+
+.header__hero-text__sub-title {
+  font-size: 1.6rem;
+  color: #754ef9;
+  text-transform: uppercase; }
+  @media (max-width: 770px) {
+    .header__hero-text__sub-title {
+      font-size: 1.9rem; } }
+
+.header__hero-text__title {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+  @media (max-width: 770px) {
+    .header__hero-text__title {
+      font-size: 2.5rem; } }
+  @media (max-width: 991px) {
+    .header__hero-text__title {
+      font-size: 2.6rem; } }
+
+.heading-secondary {
+  font-weight: 700;
+  font-size: 2.6rem; }
+
+.about-me__name {
+  font-size: 1.2rem;
+  font-weight: 500; }
+
+@media (max-width: 600px) {
+  .section-description {
+    padding: 0 .8rem; } }
+
+header li > a {
+  position: relative;
+  display: flex;
+  line-height: inherit; }
+
+header .header-top li {
+  position: relative; }
+
+header .header-top .wrapper {
+  font-size: var(--font-small);
+  font-weight: var(--fw3);
+  justify-content: space-between;
+  line-height: 42px;
+  color: var(--light-text-color); }
+  header .header-top .wrapper ul {
+    gap: 2em; }
+    header .header-top .wrapper ul li a {
+      transition: var(--trans-color); }
+    header .header-top .wrapper ul li select {
+      color: var(--light-text-color);
+      border: none;
+      outline: none;
+      cursor: pointer; }
+      header .header-top .wrapper ul li select:hover {
+        color: var(--secondary-color); }
+      header .header-top .wrapper ul li select option {
+        padding: .35em 1em;
+        border: none; }
+
+.my-btn {
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 40px;
+  font-size: 15px;
+  line-height: 48px;
+  border-radius: 5rem;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 5;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  border: 1px solid; }
+
+.my-btn-fill {
+  border-color: #754ef9;
+  box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+  background-color: #754ef9; }
+  .my-btn-fill:hover {
+    background-color: #fff;
+    color: #754ef9;
+    border-color: #754ef9; }
+
+.my-btn-fill-2 {
+  border-color: #754ef9;
+  box-shadow: 0px 5px 8px 0px rgba(118, 78, 249, 0.55);
+  background-color: #fff;
+  color: #754ef9; }
+  .my-btn-fill-2:hover {
+    background-color: #754ef9;
+    color: #fff;
+    border-color: #754ef9; }
+
+.my-btn-ghost {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+  box-shadow: none; }
+  .my-btn-ghost:hover {
+    background-color: #fffffffb;
+    color: #754ef9; }

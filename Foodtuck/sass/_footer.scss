@@ -1,0 +1,53 @@
+.footer{
+    &__ul{
+        padding-left: 0;
+        list-style: none;
+        li{
+            margin-top: 1.2rem;
+            font-size: 1.09rem;
+        text-transform: capitalize;
+
+        }
+    }
+
+    &__paragraph{
+        font-size: .8rem;
+        width: 70%;
+        margin-bottom: 2.2rem;
+    }
+
+    &__clock-box{
+        display: flex;
+        align-items: center;
+        font-size: .8rem;
+    }
+    &__recent-photo{
+        margin-bottom: 1rem;
+        p{
+            margin-bottom: 0;
+        }
+    }
+    &__icon{
+        background-color: $color-yello;
+        padding: 1.2rem 1.3rem 1rem 1.2rem;
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+    &__date{
+        font-size: .7rem;
+        color: rgb(181, 181, 181);
+    }
+    &__copy-right{
+        background-color: $color-yello;
+        padding: 1rem 0 .7rem 0;
+        margin-top: 2rem;
+    }
+    &__copy-icon{
+display: flex;
+justify-content: end;
+
+img{
+    margin-left: 1rem;
+}
+    }
+}

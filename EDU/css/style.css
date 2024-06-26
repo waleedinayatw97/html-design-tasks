@@ -1,0 +1,521 @@
+    /* select all document  */
+   * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'lato', sans-serif !important;
+        overflow-x: hidden;
+        font-size: 15px;
+
+    }
+
+    header {
+        background-image: linear-gradient(rgb(103, 103, 200), rgb(67, 67, 205));
+        /* height: 100vh; */
+        padding-bottom: 10%;
+        padding-top: 1.5rem;
+    }
+
+
+    /* start navbar */
+
+    .logo {
+        color: rgb(230, 226, 226);
+        letter-spacing: -1px;
+    }
+
+    .logo h1 {
+        font-weight: 700
+    }
+
+    .form-control {
+        border-radius: 100px !important;
+        margin-right: -3.12rem;
+        height: 3rem !important;
+
+    }
+
+    .more-link {
+        border: none !important;
+        background-color: white !important;
+        border-radius: 50% !important;
+        font-size: .9rem !important;
+        padding: .8rem !important;
+
+    }
+
+    .search-icon {
+        background-color: rgb(66, 233, 16);
+        padding: 10px 18px;
+        border-radius: 100px;
+        color: white;
+        height: 3rem;
+
+    }
+
+    .navbar {
+        padding-top: 0 !important;
+    }
+
+    /* start carasoul */
+    .dot-image_bg {
+        background-image: url(../img/dotinm-removebg-preview.png);
+        position: absolute;
+        left: -6rem;
+    top: 6rem;
+    width: 9%;
+    height:32%;
+    background-repeat: no-repeat;
+    filter: invert();
+    }
+
+    .carasoul-box {
+        margin-left: 15rem;
+        margin-top: 2rem;
+        width: 65%;
+        height: 80vh;
+
+    }
+
+    .bg-video__content {
+        border-radius: 8%;
+        width: 100%;
+    }
+
+    .next-carasol {
+        height: 2rem;
+        position: absolute !important;
+        left: -8rem !important;
+        top: 38.5rem !important;
+        display: inline-block !important;
+        width: 4% !important;
+    }
+
+    .prev-carasol {
+        height: 2rem;
+        position: absolute !important;
+        left: -8rem !important;
+        top: 35rem !important;
+        display: inline-block !important;
+        width: 4% !important;
+    }
+    .backgrond-arrow_icon1{
+        background-color: rgba(240, 248, 255, 0.503);
+        border-radius: 50%;
+        padding:.01rem 1rem .01rem 0.8rem;
+    }
+    .backgrond-arrow_icon{
+        background-color: rgba(240, 248, 255, 0.503);
+        border-radius: 50%;
+        padding: .01rem .9rem;
+    }
+
+    .navbar-carasoul {
+        display: flex;
+        justify-content: space-between;
+        /* padding: 0 5rem/; */
+        
+    }
+    .bg-icon_carasol{
+        background-color: rgba(240, 248, 255, 0.093);
+        border-radius: 50%;
+        padding: 0.7rem 1rem;
+    }
+    .video-text{
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 83%;
+        margin-left: 6rem;
+        color: white;
+
+        /* line-height: 1; */
+        
+    }
+    .heading-primery{
+        font-size: 4.6rem;
+        font-weight: 600;
+        color: rgb(243, 236, 236);
+        letter-spacing: 1px;
+    word-spacing: 1px;
+
+    }
+    .jinah-text{
+        color: rgb(195, 192, 192);
+        margin: 1.7rem 0rem !important;
+        font-size: 1.5rem;
+    }
+    .last-play_button{
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .icon_play{
+        background-color: white;
+        color: blue;
+        border-radius: 50%;
+        padding: 2.2rem 2.5rem;
+        font-size: 2.8rem;
+    }
+
+    /* end caras0ul */
+
+    /* <!-- start online_learning section --> */
+
+    .online_learning{
+margin: 6rem 0;
+padding-left: 4rem;
+    }
+    .online_learning-icon{
+        font-size: 3.5rem;
+        background-color: rgb(188 179 179 / 37%);
+        padding: 1rem 1.4rem;
+        border-radius: 50%;
+    }
+    .heading-secondary{
+        font-weight: 600;
+        font-size: 1.8rem;
+        margin: 1.5rem 0;
+    }
+    .online_learning-paragraph{
+        line-height: 2;
+    }
+    .online_learning-heading{
+        font-weight: 600;
+    }
+    .online_learning-box{
+        width: 80%;
+    }
+
+    
+    /* <!--end online_learning section  --> */
+
+
+
+    /* <!-- start experts_in_learning --> */
+        .experts_learning{
+            position: relative;
+                height: 100vh;
+            }
+      .bg_experts_learning{
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        background-image: linear-gradient(#f1f0fe,#f1f0fe);
+        height: 100vh;
+        z-index: -2;
+        width: 80%;
+      }
+      .experts_learning-image{
+        width: 97%;
+        height: 35rem;
+        z-index: 2;
+        margin-left: -10rem;
+        /* margin-top: 9rem; */
+        border-radius: 60px;
+      }
+.experts_learning-text-box{
+    width: 79%;
+    margin-left: -3rem;
+    z-index: 23;
+    display: block;
+    
+}
+      .sixth-heading_experts_learning{
+        font-weight: 600;
+        font-size: 1.2rem;
+        
+      }
+      .dotimag{
+ background-image: url(../img/dotinm-removebg-preview.png);
+ position: absolute;
+ left: 17rem;
+ top: -2rem;
+ width: 35%;
+ height: 49%;
+ background-repeat: no-repeat;
+ filter: invert();
+ z-index: -1;
+      }
+      .primary_heading-experts_learning{
+        font-size: 3.8rem;
+        font-weight: 700;
+        margin: 1.7rem 0;
+        line-height: 1;
+        z-index: 5;
+      }
+      .dummy-text_experts{
+        font-size: 1.4rem;
+      }
+      .experts_learning-paragraph{
+        line-height: 2;
+        word-spacing: 2px;
+        margin: 2rem 0;
+      }
+      .explore_btn{
+        font-size: 1.1rem;
+    background-color: rgb(142 142 150 / 34%);
+    text-decoration: none;
+    padding: 0.7rem 3.2rem;
+    border-radius: 100px;
+    color: blueviolet;
+    font-weight: 600;
+      }
+    /* <!-- end experts_in_learning --> */
+/* start popular subject */
+.popular_subject-text{
+    position: relative;
+
+}
+
+.popular_subject-text{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 600;
+}
+
+.popular_subject-heading{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.navbar-popular_subject{
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    padding: 0 1rem;
+}
+
+.navbar-popular_subject:active,
+.navbar-popular_subject:visited{
+background-color: #b1bec0;
+border-radius: 100px;
+}
+
+.navbar-popular_subject a{
+    color: rgb(108, 100, 199) !important;
+
+}
+/* ///start card// */
+
+.dot-image_bg-card {
+    background-image: url(../img/dotinm-removebg-preview.png);
+    position: absolute;
+    left: -4rem;
+    top: 2rem;
+width: 9%;
+height:20%;
+background-repeat: no-repeat;
+filter: invert();
+}
+.card-box{
+    width: 97%;
+    background-color: #c5c5c5ad;
+    border-radius: 20px;
+
+}
+.card_image{
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+.image-btn{
+     color: white; background-color:#24def3 !important;border-radius:100px !important; padding: 0 1rem;
+     border: none;
+    height: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    /* z-index: 2; */
+}
+.dummy-text-card{
+    font-size: 1.1rem;
+}
+.card-text-box{
+    padding-left: 1.7rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+}
+.card_heading{
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: .7rem;
+}
+.last-text{
+    font-size: .9rem;
+    margin-top: .7rem;
+}
+.dot-image2_bg-card {
+    background-image: url(../img/dotinm-removebg-preview.png);
+    position: absolute;
+    right: -4rem;
+    bottom: 9rem;
+width: 6%;
+height:20%;
+background-repeat: no-repeat;
+filter: invert();
+}
+/* ///end card// */
+
+/* end popular subject */
+
+/* start big icons */
+.big_icons{
+    background-color: #6b5cf5;
+    color: white;
+    padding: 7rem 0;
+}
+.big-icon{
+    font-size: 3.5rem;
+    background-color: rgb(28, 167, 167);
+    padding: 1rem 1.3rem;
+    border-radius: 50%;
+}
+.big-icons_nomeric{
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+
+}
+.big-icons_text{
+    font-size: 1.28rem;
+    color: rgb(213, 208, 208);
+}
+.explore_btn2{
+    font-size: 1.2rem;
+/* background-color: rgb(142 142 150 / 34%); */
+text-decoration: none;
+padding: 0.7rem 3.2rem;
+border-radius: 100px;
+color: rgb(24, 23, 24);
+font-weight: 600;
+  }
+
+/* end big icons */
+/* start Advisers */
+
+.experts_Adviser-heading{
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+.card-box2{
+    width: 77%;
+    background-color: #f1f0fe;
+    border-radius: 20px;
+
+}
+.card_image2{
+    width: 95%;
+    border-radius: 50%;
+    height: 280px;
+    margin-left: -2.5rem;
+    margin-top: -8rem;
+}
+.card_heading2{
+    font-weight: 800;
+    margin-top: 1.5rem;
+    margin-bottom: .7rem;
+    font-size: 1.6rem;
+}
+.card-icon_2{
+    display: flex;
+    margin: 3rem 0 1rem 0;
+    /* justify-content: center; */
+}
+.bg-icon-card2{
+    background-color: rgba(61, 63, 65, 0.093);
+    border-radius: 50%;
+    padding: 0.7rem 1rem;
+}
+.dot-image_bg-card2 {
+    background-image: url(../img/dotinm-removebg-preview.png);
+    position: absolute;
+    left: -1rem;
+    top: 9rem;
+width: 5%;
+height:50%;
+background-repeat: no-repeat;
+filter: invert();
+}
+/* end Advisers */
+
+/* start premuim course */  
+.experts_learning{
+    position: relative;
+        height: 100vh;
+    }
+.bg_experts_learning2{
+position: absolute;
+left: 0rem;
+top: 0rem;
+background-image: linear-gradient(#f1f0fe,#f1f0fe);
+height: 100vh;
+width: 80%;
+}
+.experts_learning-image2{
+width: 97%;
+height: 35rem;
+z-index: 2;
+margin-left: 13rem;
+border-radius: 60px;
+}
+.experts_learning-text-box2{
+width: 85%;
+margin-left: 9rem;
+z-index: 23;
+display: block;
+
+}
+.sixth-heading_experts_learning{
+font-weight: 600;
+font-size: 1.2rem;
+
+}
+.dotimag-premium_course{
+    background-image: url(../img/dotinm-removebg-preview.png);
+    position: absolute;
+    right: -16rem;
+    top: 4rem;
+    width: 12%;
+    height: 38%;
+    background-repeat: no-repeat;
+    filter: invert();
+}
+
+
+.primary_heading-experts_learning2{
+font-size: 4rem;
+font-weight: 800;
+margin: 1.7rem 0;
+line-height: 1;
+z-index: 5;
+}
+.dummy-text_experts{
+font-size: 1.4rem;
+}
+.experts_learning-paragraph{
+    line-height: 2;
+    word-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.free-support_icon{
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 1.2rem 2rem 1rem 1.8rem;
+    margin-right: 1rem;
+}
+
+.heading-free_support{
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+.paragraph-free_support{
+    line-height: 2;
+}
+  /* end premuim course */

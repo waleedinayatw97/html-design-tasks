@@ -1,0 +1,107 @@
+html{
+    font-family: "lato" sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.font-size{
+    font-size: .95rem;
+    font-weight: 500;
+}
+.navbar-nav .nav-item .active1{
+    color: green !important;
+}
+.active1::after{
+    width: 40px;
+    height: 2px;
+    background-color: green;
+    display: block;
+    content: " ";
+    margin: 0px auto;
+}
+.rounded-circle{
+    font-size: 9px;
+    margin-top: 3px;
+}
+.icons-small i{
+    color: gray;
+}
+/*`````````````````````````````````````` start header``````````````````````````` */
+.header{
+    background-color: #e2f0f1;
+
+}
+.header-row{
+    padding:22px 0px !important;
+}
+
+.primery-text1{
+    margin-top: 90px !important   ;
+}
+.shop-text{
+    word-spacing:2px;
+    font-size: 1.1rem !important;
+    letter-spacing: 1;
+}
+ .text-heading{
+    font-size: 3rem !important;
+ }
+ .btn-text-size{
+    font-size: 0.7rem !important;
+    padding: 11px 35px !important;
+    font-weight: 700 !important;
+ }
+   .pgnation .last-text::after{
+    width: 20px;
+    height: 2px;
+    background-color: green;
+    display: block;
+    content: " ";
+    margin: 0px auto;
+    /* margin-top: 30px; */
+
+}
+/* ```````````````end header````````````````````````````` */
+
+/* `````````````````````````start sale-box ```````````````````````````````*/
+.font-size-sale_box{
+    font-size: .95rem;
+    font-weight: 500;
+    flex-direction: row !important;
+    justify-content: center;
+    margin: 36px auto;
+    word-spacing: 2px !important;
+}
+.active2::after{
+    width: 80px;
+    height: 2px;
+    background-color: green;
+    display: block;
+    content: " ";
+    margin: 0px auto;
+}
+.sale_box-btn{
+    position:absolute !important;
+    top: 70%;
+    width: 96%;
+    padding-left: 14px;
+    /* left: 34px; */
+
+}
+/* `````````````````````````end sale-box ```````````````````````````````*/
+/* `````````````````````````start footer ```````````````````````````````*/
+
+
+.big-icon2 {
+    font-size: 133%;
+    border: 1px solid rgb(187, 44, 44);
+    border-radius: 50%;
+    padding: 0px 10px;
+}
+
+.big-icon3 {
+    font-size: 133%;
+    border: 1px solid rgb(187, 44, 44);
+    border-radius: 50%;
+    padding: 0px 5px;
+}

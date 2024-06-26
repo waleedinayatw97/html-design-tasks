@@ -1,0 +1,145 @@
+.testimonials{
+    // position: relative;
+    
+    &__bg-img{
+        // background-image: url(../img/r1-testimonial-bg.png); 
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 41%;
+        position: absolute;
+        top: 4rem;
+        right: 2rem;
+
+    }
+    &__box{
+        background-color: rgb(255, 255, 255);
+        width: 65%;
+        color: black;
+        margin: 0 auto;
+        margin-top: 5rem;
+        padding: 0 7rem;
+        text-align: center;
+
+
+        @media only screen and (max-width:1200px) {
+            padding: 0 2rem;
+  
+         }
+
+         @media only screen and (max-width:992px) {
+           width: 100%;
+  
+         }
+         @media only screen and (max-width:575px) {
+            padding: 0 0rem;
+  
+         }
+
+    }
+
+    &__img{
+margin-top: -4rem;
+width: 20%;
+    }
+
+    &__99{
+margin: 2.5rem 0;
+font-family: 'Exo', sans-serif;
+color: $color-yello;
+font-size: 2rem;
+font-weight: 600;
+
+    }
+
+    &__paragraph{
+font-weight: 400;
+color: #3d3b3b;
+font-size: 1.01rem;
+    }
+
+    &__icon-box{
+margin: 1.9rem 0 1.1rem 0;
+    }
+
+    &__icon{
+        font-size: 1.5rem;
+        color:gray;
+        
+    }
+    &__icon:not(:last-child){
+        margin-right: .2rem;
+    }
+
+
+    &__h4{
+        font-size: 1.43rem;
+        font-weight:700 ;
+    }
+    
+    &__last-text{
+        font-weight: 400;
+        font-size: .9rem;
+        color: gray;
+        padding-bottom: 1.5rem;
+    }
+    
+// starts
+
+&__ratting-star input {
+    display: none;
+}
+
+&__ratting-star label {
+    display: inline-block;
+    width: 23px;
+    position: relative;
+    /* display: none; */
+    cursor: pointer;
+}
+
+&__ratting-star label::before {
+    content: "\1F7CA";
+    // position: absolute;
+    font-size: 34px;
+    color: gray;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    
+}
+
+&__ratting-star label::after {
+    content: "\1F7CA";
+    position: absolute;
+    font-size: 34px;
+    color: rgb(255, 234, 0);
+    display: inline-block;
+    left: 0;
+    top: 0;
+    opacity: 0;
+
+
+}
+
+// &__ratting-star label:hover::after,
+// &__ratting-star label:hover ~ label::after,
+&__ratting-star input:checked ~ label::after
+{
+opacity: 1;
+
+}
+
+
+}
+
+.carousel-indicators {
+bottom: -4rem !important;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: $color-yello;
+}

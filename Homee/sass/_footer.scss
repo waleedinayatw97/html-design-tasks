@@ -1,0 +1,93 @@
+ /* sart footer */
+ .footer_logo_image{
+    display: block;
+     width: 83px !important;
+      padding-top: 4rem;
+      margin-left: -8px;
+}   
+.section-footer {
+    background-color: #000000;
+    padding-top: 5.5rem;
+    
+}
+
+footer {
+    
+    background-color: #fafafa;
+    padding-top: 6rem;
+}
+
+.footer-column1 ul {
+    list-style: none;
+    margin-left: 0px;
+    margin-left: -2rem;
+
+    @media only screen and (max-width:600px){
+        display: block;
+    }   
+}
+
+.footer-column1{
+   
+}
+    
+
+// .footer-column1 ul li {
+//     font-size: .1rem;
+//     font-weight: 700;
+
+// }
+
+.footer-column1 li {
+    padding-top: 13px;
+    
+}
+
+.footer-column1 li a {
+    // font-size: 1.2rem;
+    color: rgb(196, 194, 194);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+.footer_input {
+    width: 101%;
+    padding:.6rem 9px;
+    border-radius: 9px;
+    border: none;
+    color: rgb(51, 27, 236);
+    margin-top: 16px;
+    
+    @media only screen and (max-width:700px){
+    width: 94%;
+        
+    }
+    @media only screen and (max-width:400px){
+        width: 90%;
+            
+        }
+}
+
+.form_submit {
+    margin-left: -7rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #211ada;
+    padding: 6px 16px;
+    font-size: 1.2rem;
+    color: white;
+    @media only screen and (max-width:700px){
+      margin-left: -8rem;
+            
+        }
+}
+::placeholder{
+font-size: 1.4rem;
+font-weight: 500;
+padding-left: 1.1rem;
+}
+
+
+/* end footer */

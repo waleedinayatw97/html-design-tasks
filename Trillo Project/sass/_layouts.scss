@@ -1,0 +1,186 @@
+.container {
+    margin: 8rem auto;
+    max-width: 120rem;
+    background-color: var(--color-grey-light-2);
+    box-shadow: var(--shadow-dark);
+    min-height: 50rem;
+
+    @media only screen and (max-width: $bp-largest) {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+.header {
+    font-size: 1.4rem;
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    
+    @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+    }
+}
+
+.sidebar {
+    flex: 0 0 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-grey-dark-1);
+
+}
+
+.hotelview {
+    flex: 1;
+    background-color: #fff;
+    font-size: 1.4rem;
+
+}
+.detail {
+    display: flex;
+    background-color: var(--color-grey-light-1);
+    padding: 4.5rem;
+    
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2.5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 0;
+    }
+}
+
+.description {
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    padding: 3rem;
+    box-shadow: var(--shadow-light);
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2rem;
+        margin-right: 2.5rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+.user-reviews {
+    flex: 1;
+    // padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// .my-container {
+//     padding: 1rem;
+//     // background-color: orange;
+//     width: 60rem;
+//     margin: 3rem auto;
+//     display: grid;
+//     grid-template-rows: repeat(2, 15rem);
+//     grid-template-columns: repeat(auto-fill, 1fr);
+//     grid-template-columns: repeat(auto-fit, 1fr);
+//     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+//     grid-row-gap: 2rem;
+//     grid-column-gap: 2rem;
+//     grid-gap: 2rem;
+
+//   }
+  
+//   .item {
+//     font-size: 2rem;
+//     color: #fff;
+//     padding: 1rem;
+//     // display: grid;
+
+
+//     &__1 {
+//         background-color: red;
+//         grid-row: 2/3;
+//         grid-column: 2/3;
+//     }
+
+//     &__2 {
+//         background-color: orangered;
+//     }
+
+//     &__3 {
+//         background-color: yellow;
+//     }
+
+//     &__4 {
+//         background-color: pink;
+//     }
+
+//     &__5 {
+//         background-color: purple;
+//         grid-row: 1/2;
+//         grid-column: 3/4;
+//     }
+
+//     &__6 {
+//         background-color: grey;
+
+//     }
+
+//   }
+
+// //   grid challenge
+
+// .cont {
+//     width: 40rem;
+//     padding: 2rem 0;
+//     margin: auto;
+//     display: grid;
+//     grid-gap: 2rem;
+//     grid-template-columns: repeat(4, 1fr);
+//     grid-template-rows: repeat(1 1fr, 2 2fr, 3 3fr, 4 1fr);
+// }
+// .items {
+//     background-color: orange;
+//     color: #fff;
+//     font-size: 1.5rem ;
+//     padding: 1rem;
+
+//     &--1 {
+//         grid-column: 1 / -1;
+//     }
+//     &--2{
+//         // grid-column: 1 / -1;
+//     }
+//     &--3 {
+//         // grid-column: 1 / -1;
+//     }
+//     &--4 {
+//     }
+//     &--5 {
+//         grid-row: 2 / 4;
+//         grid-column: 4 / -1;
+//     }
+//     &--6 {
+//         grid-column: 1 / 4;
+//         height: 15rem;
+
+//     }
+//     &--7 {
+//         grid-column: 1 / -1;
+//     }
+// }

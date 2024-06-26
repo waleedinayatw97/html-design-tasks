@@ -1,0 +1,27 @@
+/* BIG TABLET TO DEVICE FROM 1023 TO 1140PX
+@media screen and (max-width:1200px) {
+    .primery-heading {
+        font-size: 2.2rem;
+        color: white;
+        font-weight: bold;
+        word-spacing: -3px;
+        letter-spacing: 2px;
+        line-height: 3rem;
+    }
+}
+
+
+/* SMALL TABLET TO BIG TABLET */
+@media screen and (max-width:1023px) {}
+
+
+
+/* SMALL PHONE TO SMALL TABLET */
+@media screen and (max-width:767px) {
+   
+}
+
+
+
+/* SMALL PHONE FORM 0 TO 480 */
+@media only screen and (max-width:480px) {}

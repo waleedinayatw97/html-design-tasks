@@ -1,0 +1,108 @@
+.hero {
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+
+    &__text-box {
+        padding-right: 10rem;
+        position: relative;
+        // align-self: center;
+        margin: auto 0;
+        color: rgb(208, 208, 208);
+
+
+        @media only screen and (max-width:1401px) {
+            padding-right: 5rem;
+
+        }
+
+        @media only screen and (max-width:1199px) {
+            padding-right: 1rem;
+
+        }
+
+        @media only screen and (max-width:991px) {
+            padding-right: 0rem;
+        }
+
+        &-img {
+            position: absolute;
+            right: -2rem;
+            top: -4rem;
+
+            @media only screen and (max-width:1199px) {
+                right: 1rem;
+                display: none;
+            }
+
+            @media only screen and (max-width:991px) {}
+        }
+    }
+
+    &__paragraph-coff {
+        border: 1px solid $color-primary;
+        width: max-content;
+        padding: .2rem .9rem;
+        display: flex;
+        align-items: center;
+
+        @media only screen and (max-width:275px) {
+            width: 70%;
+
+        }
+    }
+
+    &__heading-1 {}
+
+    &__btn {
+        padding: 1rem 3rem;
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-block;
+        font-size: .9rem;
+    }
+
+    &__ordernow {
+        background-color: $color-primary;
+        color: white;
+        margin-right: 1rem;
+    }
+
+    &__see-menu {
+        color: $color-primary;
+        border: 1px solid $color-primary;
+
+        @media only screen and (max-width:238px) {
+            margin-top: 1rem;
+        }
+    }
+
+    &__img-box {
+        text-align: right;
+
+        @media only screen and (max-width:991px) {
+            text-align: center;
+        }
+    }
+
+    &__img {
+        @media only screen and (max-width:1200px) {
+            width: 100%;
+            margin: 4rem auto;
+        }
+    }
+    &__indicators {
+        bottom: 1rem !important;
+        }
+}
+
+.carousel-indicators [data-bs-target] {
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    background-color: $color-primary;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    transform: scale(1.5);
+}

@@ -1,0 +1,64 @@
+.extra-ordinary {
+
+
+    &__img {
+
+        width: 100%;
+        align-self: end;
+    }
+
+    &__2nd-imges-box {
+        img {
+            width: 114%;
+            border-radius: 4px;
+        }
+
+    }
+
+    &__Years-box {
+        background-color: orange;
+        width: 22rem;
+        border-radius: 5px;
+        
+        @media only screen and (max-width:250px) {
+        width: 18rem;
+            
+        }
+
+    }
+
+    &__Years-text {
+        background-color: white;
+        width: 97%;
+        margin-left: 3%;
+        // padding-: 1rem;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+
+
+    }
+
+    &__years-experience-box {
+        align-self: center;
+        display: inline-block;
+       
+
+        p {
+            color: rgb(100, 100, 100);
+            font-size: 1.18rem;
+            font-weight: 400;
+        }
+
+        h5 {
+            font-weight: 700;
+            font-size: 1.4rem;
+            // margin-bottom: 0;
+        }
+    }
+
+    &__years-of {
+        margin-bottom: 0;
+    }
+}

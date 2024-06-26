@@ -1,0 +1,20 @@
+.heading{
+    &__1{
+        font-size: 3.3rem;
+    }
+
+    &__2{
+        font-size: 2.5rem;
+        font-weight:500;
+        letter-spacing: -1px;
+    }
+
+    &__3{
+        font-size: 1.4rem;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+}
+.white-gray{
+    color: rgb(241, 239, 239);
+}

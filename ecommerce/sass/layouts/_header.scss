@@ -1,0 +1,49 @@
+header {
+
+    li>a {
+        position: relative;
+        display: flex;
+        line-height: inherit;
+    }
+
+    .header-top {
+
+        li {
+            position: relative;
+        }
+
+        .wrapper {
+            font-size: var(--font-small);
+            font-weight: var(--fw3);
+            justify-content: space-between;
+            line-height: 42px;
+            color: var(--light-text-color);
+            
+            ul {
+                gap: 2em;
+                
+                li {
+                    a {
+                        transition: var(--trans-color);
+                    }
+                    
+                    select {
+                        color: var(--light-text-color);
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+
+                        &:hover {
+                            color: var(--secondary-color);
+                        }
+
+                        option {
+                            padding: .35em 1em;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
